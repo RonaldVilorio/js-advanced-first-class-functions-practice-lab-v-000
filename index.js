@@ -19,7 +19,7 @@ const driversByName = function(drivers){
 }
 const totalRevenue = function(drivers){
   // debugger
-  return drivers.reduce(function(accumulator,currentValue){
+   drivers.reduce(function(accumulator,currentValue){
     debugger
     return accumulator["revenue"] + currentValue["revenue"]})
   // drivers.reduce(function(accumulator,currentValue){ return accumulator + currentValue["revenue"]})
