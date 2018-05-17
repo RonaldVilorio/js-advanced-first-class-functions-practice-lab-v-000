@@ -23,4 +23,5 @@ const totalRevenue = function(drivers){
 }
 const averageRevenue = function(drivers){
   totalR = totalRevenue(drivers)
+  return totalR / drivers.length
 }
